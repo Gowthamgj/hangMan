@@ -1,0 +1,15 @@
+div{
+    width:100px;
+    height:100px;
+    position: relative;
+    background-color: brown;
+    animation-name : example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+}
+@keyframes example{
+    0%{top:0%;left:0%;background-color: antiquewhite;transition: linear;}
+    25%{top:0%;left:20%;background-color: blueviolet;transition: linear;}
+    50%{top:20%;left:20%;background-color: yellow;transition: linear;}
+    100%{top:20%;left:0%;background-color: tomato;transition: linear;}
+}
